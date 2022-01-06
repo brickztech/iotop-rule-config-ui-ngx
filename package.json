@@ -2,8 +2,8 @@
   "name": "thingsboard-rule-config-ui-ngx",
   "version": "3.3.2",
   "scripts": {
-    "cleanup": "rm -rf ./target",
-    "getthingsboard": "git clone --depth 1 git@github.com:thingsboard/thingsboard.git ./target/git-tmp/thingsboard",
+    "cleanup": "rm -rf ./target && mkdir -p empty && rsync -a --delete empty/ node_modules/ && rm -rf empty",
+    "getthingsboard": "git clone -b release-3.3 --single-branch --depth 1 git@github.com:thingsboard/thingsboard.git ./target/git-tmp/thingsboard",
     "ng": "ng",
     "start": "node --max_old_space_size=8048 ./node_modules/@angular/cli/bin/ng serve",
     "build": "ng build && node install.js",

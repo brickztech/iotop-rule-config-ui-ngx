@@ -3251,10 +3251,10 @@ core-js@3.6.4:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.4.tgz#440a83536b458114b9cb2ac1580ba377dc470647"
   integrity sha512-4paDGScNgZP2IXXilaffL9X7968RuvwlkK3xWtZRVqgd8SYNiVKRJvkFd1aqqEuPfN7E68ZHEp9hDj6lHj4Hyw==
 
-core-js@^3.12.1:
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.13.0.tgz#58ca436bf01d6903aee3d364089868d0d89fe58d"
-  integrity sha512-iWDbiyha1M5vFwPFmQnvRv+tJzGbFAm6XimJUT0NgHYW3xZEs1SkCAcasWSVFxpI2Xb/V1DDJckq3v90+bQnog==
+core-js@^3.18.3:
+  version "3.20.2"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.20.2.tgz#46468d8601eafc8b266bd2dd6bf9dee622779581"
+  integrity sha512-nuqhq11DcOAbFBV4zCbKeGbKQsUDRqTX0oqx7AttUBuqe3h20ixsE039QHelbL6P4h+9kytVqyEtyZ6gsiwEYw==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -9952,7 +9952,7 @@ terser@^4.1.2, terser@^4.3.8, terser@^4.6.13:
     angular2-hotkeys "^2.2.0"
     canvas-gauges "^2.1.7"
     compass-sass-mixins "^0.12.7"
-    core-js "^3.12.1"
+    core-js "^3.18.3"
     date-fns "^2.21.3"
     flot "git://github.com/thingsboard/flot.git#0.9-work"
     flot.curvedlines "git://github.com/MichaelZinsmaier/CurvedLines.git#master"
