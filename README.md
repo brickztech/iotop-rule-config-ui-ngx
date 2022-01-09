@@ -10,9 +10,9 @@ Configuration UI for IoToP Rule Nodes
     ```
     yarn run cleanup 
     ```
-3) Get ThingsBoard UI dependency
+3) Get IoToP UI dependency
     ```
-    yarn run getthingsboard 
+    yarn run get:iotop 
     ```
 4) Install dependencies
     ```
@@ -30,7 +30,7 @@ Configuration UI for IoToP Rule Nodes
 
     Resulting **rulenode-core-config.js**
     should be copied to ```rule-engine/rule-engine-components/src/main/resources/public/static/rulenode/```
-    directory of ThingsBoard repository.
+    directory of IoToP repository.
 
 7) Run Rule Nodes UI in hot redeploy mode
 
